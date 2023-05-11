@@ -1,0 +1,38 @@
+{
+  "providerId": "Microsoft.Tools.ServiceModel.Svcutil",
+  "version": "2.0.3",
+  "ExtendedData": {
+    "inputs": [
+      "https://tckimlik.nvi.gov.tr/Service/KPSPublic.asmx"
+    ],
+    "namespaceMappings": [
+      "*, Case.Business.KPSPublic"
+    ],
+    "outputFile": "KPSPublic.cs",
+    "references": [
+      "/Users/eftalkerem/RiderProjects/Solution1/Case.Business/bin/Debug/net7.0/Case.Entity.dll",
+      "MediatR, {MediatR, 11.0.0}",
+      "MediatR.Contracts, {MediatR.Contracts, 1.0.1}",
+      "MediatR.Extensions.Microsoft.DependencyInjection, {MediatR.Extensions.Microsoft.DependencyInjection, 11.0.0}",
+      "Microsoft.EntityFrameworkCore, {Microsoft.EntityFrameworkCore, 7.0.5}",
+      "Microsoft.EntityFrameworkCore.Abstractions, {Microsoft.EntityFrameworkCore.Abstractions, 7.0.5}",
+      "Microsoft.EntityFrameworkCore.Relational, {Microsoft.EntityFrameworkCore.Relational, 7.0.5}",
+      "Microsoft.Extensions.Caching.Abstractions, {Microsoft.Extensions.Caching.Abstractions, 7.0.0}",
+      "Microsoft.Extensions.Caching.Memory, {Microsoft.Extensions.Caching.Memory, 7.0.0}",
+      "Microsoft.Extensions.Configuration.Abstractions, {Microsoft.Extensions.Configuration.Abstractions, 7.0.0}",
+      "Microsoft.Extensions.DependencyInjection, {Microsoft.Extensions.DependencyInjection, 7.0.0}",
+      "Microsoft.Extensions.DependencyInjection.Abstractions, {Microsoft.Extensions.DependencyInjection.Abstractions, 7.0.0}",
+      "Microsoft.Extensions.Logging, {Microsoft.Extensions.Logging, 7.0.0}",
+      "Microsoft.Extensions.Logging.Abstractions, {Microsoft.Extensions.Logging.Abstractions, 7.0.0}",
+      "Microsoft.Extensions.Options, {Microsoft.Extensions.Options, 7.0.0}",
+      "Microsoft.Extensions.Primitives, {Microsoft.Extensions.Primitives, 7.0.0}",
+      "Npgsql, {Npgsql, 7.0.4}",
+      "Npgsql.EntityFrameworkCore.PostgreSQL, {Npgsql.EntityFrameworkCore.PostgreSQL, 7.0.4}",
+      "RestSharp, {RestSharp, 110.2.0}",
+      "System.Text.Encodings.Web, {System.Text.Encodings.Web, 7.0.0}",
+      "System.Text.Json, {System.Text.Json, 7.0.2}"
+    ],
+    "targetFramework": "net7.0",
+    "typeReuseMode": "All"
+  }
+}
